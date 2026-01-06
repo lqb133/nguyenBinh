@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Roblox Account Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🔥 ROBLOX ACCOUNT SHOP 🔥</h1>
+  <p>Acc Roblox giá rẻ • Uy tín • File tiền / Donate</p>
+</header>
+
+<nav>
+  <button onclick="showSection('shop')">🛒 Shop Acc</button>
+  <button onclick="showSection('card')">💳 Nạp Card</button>
+  <button onclick="showSection('donate')">❤️ Donate</button>
+</nav>
+
+<section id="shop" class="section">
+  <h2>🛒 Danh sách acc Roblox</h2>
+  <div class="products">
+    <div class="product">
+      <h3>Acc Roblox #001</h3>
+      <p>💎 Có Robux<br>🎮 Game Pass<br>📦 Full Email</p>
+      <span>150.000đ</span>
+      <button onclick="buy('Acc #001')">Mua ngay</button>
+    </div>
+  </div>
+</section>
+
+<section id="card" class="section hidden">
+  <h2>💳 Nạp thẻ</h2>
+  <input placeholder="Nhà mạng">
+  <input placeholder="Mệnh giá">
+  <input placeholder="Mã thẻ">
+  <input placeholder="Seri">
+  <button onclick="submitCard()">Gửi thẻ</button>
+</section>
+
+<section id="donate" class="section hidden">
+  <h2>❤️ Donate</h2>
+  <p>Momo: 0900xxxxxx</p>
+  <input placeholder="Tên">
+  <input placeholder="Số tiền">
+  <button onclick="donate()">Donate</button>
+</section>
+
+<footer>
+  <p>© 2026 Roblox Shop</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
